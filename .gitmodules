@@ -1,0 +1,6 @@
+[submodule "KiCad_Custom_Libraries_Submodule"]
+	path = KiCad_Custom_Libraries_Submodule
+	url = https://github.com/Paul9306/KiCad_Custom_Libraries
+[submodule "KiCad_Library_Submodule"]
+	path = KiCad_Library_Submodule
+	url = https://github.com/Paul9306/KiCad_Custom_Libraries
