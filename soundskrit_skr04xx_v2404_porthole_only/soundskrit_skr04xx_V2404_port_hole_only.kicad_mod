@@ -1,0 +1,166 @@
+(footprint "soundskrit_skr04xx_v2404_port_hole_only"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "X-PortHole1"
+		(at 5.46 0.23 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "814c301f-6248-4134-8faa-d0ce23fe5a18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Soundskrit SKR400"
+		(at 0.56896 -4.07162 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "849e4b47-bea1-4227-92cb-e44225a1ed82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "soundskrit_skr04xx_v2404:soundskrit_skr04xx_v2404"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b662821-167e-4622-8c29-712186a89972")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fba8ee6-39d8-4553-afc1-09d806ffc0f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca8d9ef1-1ab6-423c-a21d-1d802124b1df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.475 -1.28)
+		(end -1.475 2.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e2bde76-f65a-4240-8555-286d7ce588bf")
+	)
+	(fp_line
+		(start -1.475 -1.28)
+		(end 1.475 -1.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b86f7ed-6ee1-4842-b559-bf4638b0ba42")
+	)
+	(fp_line
+		(start -1.475 2.52)
+		(end 1.475 2.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38f33dde-77f3-40e4-bc6d-3436f098b5d6")
+	)
+	(fp_line
+		(start 1.475 -1.28)
+		(end 1.475 2.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15f25a89-10e9-43f7-90bb-074bdbb74eb5")
+	)
+	(fp_line
+		(start -1.325 -1.13)
+		(end -1.325 2.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d215c65-6379-4e76-9e2d-3c1c0402e5fe")
+	)
+	(fp_line
+		(start 1.325 -1.13)
+		(end -1.325 -1.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "282dacba-c09f-4a4b-9d14-5ca08215d361")
+	)
+	(fp_line
+		(start 1.325 -1.13)
+		(end 1.325 2.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "599026f7-1079-439a-b518-8d74633eede6")
+	)
+	(fp_line
+		(start 1.325 2.37)
+		(end -1.325 2.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ade8fd0c-2348-4dae-a92e-fdbb3fd12ddb")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 1.4 1)
+		(drill oval 1.4 1)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0.2)
+		(uuid "db7a96de-bbd5-446c-9bf1-ef2358a3f826")
+	)
+	(model "G:/Shared drives/Soundskrit/Applications/Applications and Hardware Integration/PCB/PCB_KiCad/Kicad Libraries/soundskrit_skr4xx_v2402/soundskrit_skr4xx_v2402.STEP"
+		(offset
+			(xyz -3.55 19.46 33.39)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 90 0)
+		)
+	)
+)

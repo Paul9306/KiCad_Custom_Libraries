@@ -1,0 +1,329 @@
+(footprint "Pico EZ-Mate_781710004"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at -1.368 -2.6064 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf3bab6b-a7ad-4ddc-93c0-7f454d41d8c8")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 3.1024 -1.5936 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62e50576-9480-4b21-a8cb-73ab630f8d3f")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Pico EZ-Mate_781710004:Pico EZ-Mate_781710004"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc5c692a-6e8f-41cd-9d40-a1dd2b73744d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0781710004/2424925"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca89cc69-64a6-472e-a836-36c8745eea3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Molex EZ-Mate-4pin conn"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f9a2fca-8d2a-4cc0-8c73-69d2d1e82306")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MANUFACTURER" "MOLEX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc9193b2-bfe8-4575-be06-4c5317200628")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "1.52mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "964f6236-a4cf-4239-a90f-54ed4c279acb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "G"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bffe2234-7cf9-43ec-917d-236435235313")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bc850d6-866b-4a3a-b258-ba46d5bf5884")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Wire Assembly" "https://www.digikey.ca/en/products/detail/molex/0369200400/10232998"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58e7fd9c-98e2-47ab-8f51-ece40b9915dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "0781710004"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ad61535-3743-45aa-b669-defa279db8cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -0.105)
+		(end -3.3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42b2b1ca-8bfe-4b53-b5f6-f79bb9d8a3b1")
+	)
+	(fp_line
+		(start -2.5 -0.105)
+		(end -3.3 -0.105)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee5be334-7db0-4d06-94bc-3f8c28b5e15c")
+	)
+	(fp_line
+		(start 2.5 -0.105)
+		(end 3.3 -0.105)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "729a2aca-705a-4b9f-8a0b-27de0cd6c960")
+	)
+	(fp_line
+		(start 3.3 -0.105)
+		(end 3.3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f571c8c-f0de-4893-bef1-458376fbadb1")
+	)
+	(fp_circle
+		(center -1.75 -0.95)
+		(end -1.65 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9c83fd29-5da1-41d9-9a49-2ccc3a643224")
+	)
+	(fp_line
+		(start -3.55 -0.68)
+		(end -3.55 4.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a09d187-4a2c-48d5-802a-b7df28b425b4")
+	)
+	(fp_line
+		(start -3.55 4.65)
+		(end 3.55 4.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60d3215f-d26d-44d6-b3c9-fdda166cb894")
+	)
+	(fp_line
+		(start 3.55 -0.68)
+		(end -3.55 -0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fffcdf2d-05e6-4984-91be-98aeabee0e9d")
+	)
+	(fp_line
+		(start 3.55 4.65)
+		(end 3.55 -0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbe7e7b0-343d-46b2-93d6-03b73227ffcd")
+	)
+	(fp_line
+		(start -3.3 -0.105)
+		(end -3.3 4.395)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9e6e993-4fb3-44e2-878c-4f9699f6a800")
+	)
+	(fp_line
+		(start -3.3 4.395)
+		(end 3.3 4.395)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5eeccf97-c6a4-45fd-b5ce-570134d89417")
+	)
+	(fp_line
+		(start 3.3 -0.105)
+		(end -3.3 -0.105)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8c4eb3d-9c5e-4021-99df-cbee322352eb")
+	)
+	(fp_line
+		(start 3.3 4.395)
+		(end 3.3 -0.105)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f80be5eb-3dec-48e2-a592-390c6377d6b0")
+	)
+	(fp_circle
+		(center -1.75 -0.95)
+		(end -1.65 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "337a1451-45e4-47f5-8971-a3c99fa12a0a")
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "79b40649-0e75-4854-9fa3-28dc93ba0a09")
+	)
+	(pad "2" smd rect
+		(at -0.6 0)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d0c2475f-a113-4fb7-8214-0701a1eb0f3b")
+	)
+	(pad "3" smd rect
+		(at 0.6 0)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a6244b4-d153-445d-9be7-de236150fd60")
+	)
+	(pad "4" smd rect
+		(at 1.8 0)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86eee6ee-55d7-483a-8ae4-50706b89d775")
+	)
+	(pad "S1" smd rect
+		(at 2.95 3.775)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31735aea-6e58-46a4-a03d-6ac809c14226")
+	)
+	(pad "S2" smd rect
+		(at -2.95 3.775)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d02d24f0-c192-4a88-a750-51d8116a89be")
+	)
+	(model "G:/Shared drives/Soundskrit/Applications/Applications and Hardware Integration/PCB/PCB_KiCad/KiCad Libraries V2/Pico EZ-Mate_781710004/Pico EZ-Mate_781710004.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
