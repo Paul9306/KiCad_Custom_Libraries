@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 5.715 3.81 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Knowles Lazarus SPH18C3LM4H"
+		(property "Footprint" "Knowles_Lazarus_SPH18C3LM4H:Knowles_Lazarus_SPH18C3LM4H"
 			(at 24.13 -30.48 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/knowles/SPH18C3LM4H-1/15518645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 			(pin output line
 				(at 17.78 -5.08 180)
 				(length 2.54)
-				(name "OUT+/Data"
+				(name "OUT+"
 					(effects
 						(font
 							(size 1 1)
@@ -86,10 +86,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 17.78 -10.16 180)
 				(length 2.54)
-				(name "OUT-/Sel"
+				(name "OUT-"
 					(effects
 						(font
 							(size 1 1)
@@ -125,7 +125,7 @@
 			(pin bidirectional line
 				(at -6.35 -10.16 0)
 				(length 2.54)
-				(name "GND/CLK"
+				(name "GND"
 					(effects
 						(font
 							(size 1 1)

@@ -10,7 +10,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at 6.35 2.54 0)
+			(at 5.842 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Soundskrit SKR400"
+			(at 15.24 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,17 +26,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SKR400"
-			(at 8.89 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "soundskrit_skr4xx_v2402:soundskrit_skr4xx_v2402"
+		(property "Footprint" "soundskrit_skr04xx_v2402:soundskrit_skr04xx_v2402"
 			(at 24.13 -30.48 0)
 			(effects
 				(font
@@ -47,7 +45,7 @@
 			)
 		)
 		(property "Description" "Mems microphone"
-			(at 0 0 0)
+			(at 11.176 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,16 +53,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SKR0400"
-			(at 5.08 0 0)
+		(property "Part Number" "Soundskrit SKR0400"
+			(at 5.715 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Soundskrit"
-			(at 0 0 0)
+			(at -3.302 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,8 +186,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U7"
-			(at -2.54 2.54 0)
+		(property "Reference" "U1"
+			(at 5.715 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,14 +195,14 @@
 			)
 		)
 		(property "Value" "Soundskrit SKR410"
-			(at 5.08 0 0)
+			(at 5.715 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "soundskrit_skr4xx_v2402:soundskrit_skr4xx_v2402"
+		(property "Footprint" "soundskrit_skr04xx_v2402:soundskrit_skr04xx_v2402"
 			(at 24.13 -30.48 0)
 			(effects
 				(font
@@ -346,24 +345,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at -1.27 2.54 0)
+			(at 5.715 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Soundskrit SKR400/410"
-			(at 19.05 0 0)
+			(at 5.715 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "soundskrit_skr4xx_v2402:soundskrit_skr4xx_v2402"
+		(property "Footprint" "soundskrit_skr04xx_v2402:soundskrit_skr04xx_v2402"
 			(at 24.13 -30.48 0)
 			(effects
 				(font
