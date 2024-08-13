@@ -1,0 +1,164 @@
+(footprint "Infineon_IM72D128V01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U1"
+		(at 0 -9.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26fc389a-b5db-45cf-8b11-d88acfbde284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Infineon IM72D128V01"
+		(at 0 -7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5f68286-04a8-4962-b66e-46ccb93c50e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Infineon_IM72D128V01:Infineon_IM72D128V01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67b46afb-f722-4e28-9667-e49128296dcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IM72D128V01XTMA1/16730911"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be145fff-26bd-4754-a539-56a3db9effa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Infineon IM72D128V01 microphone symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a049768-f6a6-4718-86a6-e8a5124e5e06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.45)
+		(end -1.6 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de862b91-a38b-467d-ac09-31c2ff090a0b")
+	)
+	(fp_line
+		(start -1.6 -1.45)
+		(end 1.6 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9753447-8dbf-4851-88a0-5b6db26bdf4f")
+	)
+	(fp_line
+		(start -1.6 2.7)
+		(end 1.6 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12f44951-2caf-417b-9671-f01baf17840c")
+	)
+	(fp_line
+		(start 1.6 -1.45)
+		(end 1.6 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4bc7a1f-3144-4a6f-82c8-2c5e98635b7c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.81 0)
+		(stroke
+			(width 0.46)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "3bee0855-804e-46f9-b505-b221b73c617e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5dfd6a29-94af-42a0-b8bf-d285cec97983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "46b7f0db-171e-4e94-bc7a-68c99365936b")
+	)
+	(pad "1" smd rect
+		(at -0.85 2.18)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7bf9e32e-c5dd-4d99-93b9-9741fa988ffd")
+	)
+	(pad "2" smd rect
+		(at -0.85 1.48)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0ef151a1-94f7-4a2e-af18-fbae3045ba17")
+	)
+	(pad "3" smd rect
+		(at 0.85 2.18)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd69f9d9-16a6-49aa-bdac-85705fd004f7")
+	)
+	(pad "4" smd rect
+		(at 0.85 1.48)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1dddc9c6-67f0-4b8f-bbe5-49fa771306f8")
+	)
+)
