@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 0.635 2.54 0)
 			(effects
 				(font
@@ -161,7 +161,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 0.635 3.81 0)
 			(effects
 				(font
@@ -316,7 +316,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 0.635 2.54 0)
 			(effects
 				(font
