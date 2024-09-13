@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 5.842 2.032 0)
 			(effects
 				(font
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "Soundskrit SKR400"
+		(property "Value" "Soundskrit SKR0400"
 			(at 15.24 -0.254 0)
 			(effects
 				(font
@@ -186,7 +186,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 5.715 3.81 0)
 			(effects
 				(font
@@ -194,7 +194,7 @@
 				)
 			)
 		)
-		(property "Value" "Soundskrit SKR410"
+		(property "Value" "Soundskrit SKR0410"
 			(at 5.715 1.27 0)
 			(effects
 				(font
@@ -344,7 +344,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "Mic1"
 			(at 5.715 3.81 0)
 			(effects
 				(font
@@ -352,7 +352,7 @@
 				)
 			)
 		)
-		(property "Value" "Soundskrit SKR400/410"
+		(property "Value" "Soundskrit SKR0400/0410"
 			(at 5.715 1.27 0)
 			(effects
 				(font

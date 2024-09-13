@@ -162,7 +162,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at 0 1.778 0)
+			(at 0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,14 +170,14 @@
 			)
 		)
 		(property "Value" "Soundskrit SKR0610"
-			(at 0 0 0)
+			(at 0.635 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "soundskrit_skr06xx_v2405:soundskrit_skr06xx_V2405"
 			(at 0 0 0)
 			(effects
 				(font
