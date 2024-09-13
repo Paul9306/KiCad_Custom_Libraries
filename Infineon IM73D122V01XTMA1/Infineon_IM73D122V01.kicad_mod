@@ -1,0 +1,335 @@
+(footprint "Infineon_IM73D122V01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "IM73D122V01")
+	(property "Reference" "Mic1"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc6b6b16-045b-4c54-95b1-67a6105434cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Infineon IM73D122V01"
+		(at 0 -4.951001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "498a0332-7896-4e17-8815-e2ab5c5cc8f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Infineon IM73D122V01XTMA1:Infineon_IM73D122V01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c58e99b-96fc-45eb-ae30-b48cf3cd7900")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.sk/en/products/detail/infineon-technologies/IM73D122V01XTMA1/16999563"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f1828c6-2218-4da0-b0d0-631a9582f90d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Infineon IM73D122V01 microphone footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab8719a-88c4-4f6f-83fb-5efd67175d17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0 -1.04) (xy 0.202894 -1.020017) (xy 0.397991 -0.960835) (xy 0.577793 -0.864728) (xy 0.735391 -0.735391)
+			(xy 0.864728 -0.577793) (xy 0.960835 -0.397991) (xy 1.020017 -0.202894) (xy 1.04 0) (xy 1.020017 0.202894)
+			(xy 0.960835 0.397991) (xy 0.864728 0.577793) (xy 0.735391 0.735391) (xy 0.577793 0.864728) (xy 0.397991 0.960835)
+			(xy 0 1.04) (xy -0.202894 1.020017) (xy -0.397991 0.960835) (xy -0.577793 0.864728) (xy -0.735391 0.735391)
+			(xy -0.864728 0.577793) (xy -0.960835 0.397991) (xy -1.020017 0.202894) (xy -1.04 0) (xy -1.020017 -0.202894)
+			(xy -0.960835 -0.397991) (xy -0.864728 -0.577793) (xy -0.735391 -0.735391) (xy -0.577793 -0.864728)
+			(xy -0.397991 -0.960835) (xy -0.202894 -1.020017) (xy 0 -1.04) (xy 0 -0.58) (xy -0.113152 -0.568855)
+			(xy -0.221956 -0.53585) (xy -0.322231 -0.482252) (xy -0.410122 -0.410122) (xy -0.482252 -0.322231)
+			(xy -0.53585 -0.221956) (xy -0.568855 -0.113152) (xy -0.58 0) (xy -0.568855 0.113152) (xy -0.53585 0.221956)
+			(xy -0.482252 0.322231) (xy -0.410122 0.410122) (xy -0.322231 0.482252) (xy -0.221956 0.53585) (xy -0.113152 0.568855)
+			(xy 0 0.58) (xy 0.113152 0.568855) (xy 0.322231 0.482252) (xy 0.410122 0.410122) (xy 0.482252 0.322231)
+			(xy 0.53585 0.221956) (xy 0.568855 0.113152) (xy 0.58 0) (xy 0.568855 -0.113152) (xy 0.53585 -0.221956)
+			(xy 0.482252 -0.322231) (xy 0.410122 -0.410122) (xy 0.322231 -0.482252) (xy 0.221956 -0.53585) (xy 0.113152 -0.568855)
+			(xy 0 -0.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "cb5d68fe-03b8-441a-b6bb-be802c965eb9")
+	)
+	(fp_line
+		(start -1.677 -1.4964)
+		(end 1.677 -1.4964)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "433dd95d-312c-4a25-8a3c-4801f0f22918")
+	)
+	(fp_line
+		(start -1.677 2.8564)
+		(end -1.677 -1.4964)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74210c69-b3b2-4e43-89bb-57ff2aacc30a")
+	)
+	(fp_line
+		(start 1.677 -1.4964)
+		(end 1.677 2.8564)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00f83aea-e0fe-443f-88af-f4f15a6c6b47")
+	)
+	(fp_line
+		(start 1.677 2.8564)
+		(end -1.677 2.8564)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a53fb049-ade6-4e66-b180-1510e00353c4")
+	)
+	(fp_circle
+		(center -1.8294 2.2802)
+		(end -1.7024 2.2802)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a5082dc6-6a1a-4aa4-acc9-be44548b3fbe")
+	)
+	(fp_line
+		(start -1.804 -1.6234)
+		(end -1.804 2.9834)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82b57cab-3db2-4877-a17f-6edd79748ef2")
+	)
+	(fp_line
+		(start -1.804 2.9834)
+		(end 1.804 2.9834)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39e27d7a-fac8-477a-a5c2-0102a6dae007")
+	)
+	(fp_line
+		(start 1.804 -1.6234)
+		(end -1.804 -1.6234)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "838310b4-218f-4b47-8ee8-79ac4bf2261d")
+	)
+	(fp_line
+		(start 1.804 2.9834)
+		(end 1.804 -1.6234)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6098f06-9c6f-4e0f-b6d4-53e7db4cf279")
+	)
+	(fp_line
+		(start -1.55 -1.3694)
+		(end -1.55 2.7294)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71106cb0-181f-4110-b7e1-5e74fbfcfe96")
+	)
+	(fp_line
+		(start -1.55 2.7294)
+		(end 1.55 2.7294)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "358ac546-3212-4fd0-9287-c794f120ecb2")
+	)
+	(fp_line
+		(start 1.55 -1.3694)
+		(end -1.55 -1.3694)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1079d6ba-a320-455c-9b67-63c34a596f25")
+	)
+	(fp_line
+		(start 1.55 2.7294)
+		(end 1.55 -1.3694)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1de794f3-46d6-4b15-acad-4cf0f6b6e9df")
+	)
+	(fp_arc
+		(start 0.3048 -1.3694)
+		(mid 0 -1.0646)
+		(end -0.3048 -1.3694)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46419f2c-9177-4957-be53-74f9ffcadb2c")
+	)
+	(fp_circle
+		(center -0.3556 2.2294)
+		(end -0.2794 2.2294)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4dd0fc4c-baf7-49d2-b483-2d4e776c9357")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.251001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0277256b-d609-4090-a6e8-43fcd3370d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.8128 0.8128)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3156cb7a-1714-49af-ade8-ced410afb592")
+	)
+	(pad "1" smd rect
+		(at -0.850001 2.228999)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "835d661d-fc8a-418a-8c76-5ed4c57bccea")
+	)
+	(pad "2" smd rect
+		(at -0.850001 1.529001)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6db941eb-a7f3-4a9a-a7b4-a09b82a1efc9")
+	)
+	(pad "3" smd rect
+		(at 0.850001 2.228999)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b73676a3-79dd-4fdd-bef2-2046a705cad7")
+	)
+	(pad "4" smd rect
+		(at 0.850001 1.529001)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a6a912b-715a-48e6-8ad8-8ca1e90c787b")
+	)
+	(pad "5" smd custom
+		(at 0 -0.8186)
+		(size 0.127 0.127)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.2214) (xy 0.202894 -0.201417) (xy 0.397991 -0.142235) (xy 0.577793 -0.046128) (xy 0.735391 0.083209)
+					(xy 0.864728 0.240807) (xy 0.960835 0.420609) (xy 1.020017 0.615706) (xy 1.04 0.8186) (xy 1.020017 1.021494)
+					(xy 0.960835 1.216591) (xy 0.864728 1.396393) (xy 0.735391 1.553991) (xy 0.577793 1.683328) (xy 0.397991 1.779435)
+					(xy 0 1.8586) (xy -0.202894 1.838617) (xy -0.397991 1.779435) (xy -0.577793 1.683328) (xy -0.735391 1.553991)
+					(xy -0.864728 1.396393) (xy -0.960835 1.216591) (xy -1.020017 1.021494) (xy -1.04 0.8186) (xy -1.020017 0.615706)
+					(xy -0.960835 0.420609) (xy -0.864728 0.240807) (xy -0.735391 0.083209) (xy -0.577793 -0.046128)
+					(xy -0.397991 -0.142235) (xy -0.202894 -0.201417) (xy 0 -0.2214) (xy 0 0.2386) (xy -0.113152 0.249745)
+					(xy -0.221956 0.28275) (xy -0.322231 0.336348) (xy -0.410122 0.408478) (xy -0.482252 0.496369)
+					(xy -0.53585 0.596644) (xy -0.568855 0.705448) (xy -0.58 0.8186) (xy -0.568855 0.931752) (xy -0.53585 1.040556)
+					(xy -0.482252 1.140831) (xy -0.410122 1.228722) (xy -0.322231 1.300852) (xy -0.221956 1.35445)
+					(xy -0.113152 1.387455) (xy 0 1.3986) (xy 0.113152 1.387455) (xy 0.322231 1.300852) (xy 0.410122 1.228722)
+					(xy 0.482252 1.140831) (xy 0.53585 1.040556) (xy 0.568855 0.931752) (xy 0.58 0.8186) (xy 0.568855 0.705448)
+					(xy 0.53585 0.596644) (xy 0.482252 0.496369) (xy 0.410122 0.408478) (xy 0.322231 0.336348) (xy 0.221956 0.28275)
+					(xy 0.113152 0.249745) (xy 0 0.2386)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8b7e21de-e977-4159-b073-ecad7a950984")
+	)
+	(model "${KIPRJMOD}/parts/Infineon IM72D128V01/Infineon_IM72D128V01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
