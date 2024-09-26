@@ -105,4 +105,9 @@
   (pad "5" smd rect (at -0.8375 2.065) (size 0.725 0.36) (layers "F.Cu" "F.Paste" "F.Mask")
 (uuid "81305e14-d1d3-4f15-80e4-838b10aa9f0f")
   )
+  (model "${KIPRJMOD}/Kicad_Libraries/soundskrit_skr06xx_v2405/soundskrit_skr06xx_v2405.STEP"
+    (offset (xyz -3.55 19.46 33.39))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 90 0))
+  )
 )
